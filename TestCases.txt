@@ -1,0 +1,23 @@
+Unit Test cases for 'Multiplication' Function:
+
+  1. Expect Multiplication of (5,8) to be number
+  2. Expect Multiplication of (5,8) to be 40
+  3. Expect Multiplication of ("g",8) to be an error
+  4. Expect Multiplication of (1,4,8) to be an error
+
+Unit Test cases for "concatOdds" Function:
+
+  1. Expect concatOdds([3, 2, 1], [9, 1, 1, 1, 4, 15, -1]) to be [-1, 1, 3, 9, 15]
+  2. Expect concatOdds(["v", 2, 1], [9, 1, 1, 1, 4, 15, -1]) to be an error
+  3. Expect concatOdds([3, 2, 1], [9, 1, 1, 1, 4, 15, -1]) to remove the duplicates if there are multiple odd numbers
+  4. Expect concatOdds([2, 2, 4], [8, 4, 6]) to show a message that there are no odd numbers
+
+Functional Tests
+
+  1. When the user clicks to checkout, there should be a prompt to ask if the guest wants to create an account.
+  2. If the user clicks "Checkout" with an empty cart, a message should be shown saying that the cart is empty.
+  3. Once the user clicke the "Checkout" button with items in the cart, it should be directed to the address confirmation page.
+  4. If the entered address is invalid, an error message should be shown saying the entered address is invalid.
+  4. Once the user confirms the address, it should be directed to the estimated delivery date based on the user address.
+  5. Once the user clicks "YES" to the estimated delivery date, it should be directed to the payment page.
+  6. Once the payment is success, it should be directed to a page which shows the message "Payment was successful and Order is placed".
